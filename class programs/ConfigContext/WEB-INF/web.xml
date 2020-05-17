@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+<servlet> 
+    <servlet-name>staff</servlet-name> 
+    <servlet-class>Staff</servlet-class> 
+    <init-param> 
+      <param-name>Email</param-name> 
+      <param-value>forStaff@vce.ac.in</param-value> 
+    </init-param> 
+  </servlet> 
+  
+  <servlet-mapping> 
+    <servlet-name>staff</servlet-name> 
+    <url-pattern>/servlet1</url-pattern> 
+  </servlet-mapping> 
+  
+  <servlet> 
+    <servlet-name>student</servlet-name> 
+    <servlet-class>Student</servlet-class> 
+    <init-param> 
+      <param-name>Email</param-name> 
+      <param-value>forStudent@vce.ac.in</param-value> 
+    </init-param> 
+  </servlet> 
+  
+  <servlet-mapping> 
+    <servlet-name>student</servlet-name> 
+    <url-pattern>/servlet2</url-pattern> 
+  </servlet-mapping> 
+  
+  <context-param> 
+    <param-name>Website-name</param-name> 
+    <param-value>vce.ac.in</param-value> 
+  </context-param> 
+ 
+</web-app>

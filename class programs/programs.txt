@@ -1,0 +1,16 @@
+greetV1 - Generic Greet
+greetV2 - Greet with username - GET
+greetV3 - Greet with username - POST
+greetV4 - cookie
+greetV5 - session
+ConfigContext - Servlet Config and Context
+StudInfoV1 - Simple Hall ticket decode
+StudInfoV2 - Hall ticket decode - separating the model class
+StudInfoV2 - Hall ticket decode -  Model view controller
+StudInfoV4 - redirect to homepage when wrong input 
+AttributeListener: Event and Listener Example
+StudentApp - jdbc connectivity insert and select
+
+
+
+
